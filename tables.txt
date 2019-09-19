@@ -1,0 +1,10 @@
+Create three tables, with the fields as mentioned below with respect to each table and insert some values.
+
+	1.user(user_id INT(11),active INT(11), email VARCHAR(45), name VARCHAR(45), last_name VARCHAR(45), password VARCHAR(45));
+				**(1,1,'msnawaz444@gmail.com', 'nawaz', 'saif', 'pass')**
+				
+	2. role(role_id INT(11), role VARCHAR(45));
+			**(1, 'ADMIN')**
+	
+	3.user_role(user_id INT(11), role_id INT(11));
+			**(1,1)**
